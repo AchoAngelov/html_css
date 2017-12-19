@@ -1,0 +1,209 @@
+body, header, main, nav, ul, li, h1, a, input, img, label, form, p, h2, div{
+	margin: 0;
+	padding-bottom: 0;
+}
+/*style for body*/
+body{
+	background-image: url('img/294070-full-size-old-paper-background-2000x1333-for-retina.jpg');
+}
+/*style for header*/
+header{
+	font-family: fantasy, arial, Helvetica, Tahoma;
+}
+.tophead {
+	text-align: center;
+	height: 98px;
+}
+/*style for navigation menu*/
+.navmenu{
+	width: 80%;
+	height: 50px;
+	position: relative;
+	left:10%;
+	background: #C50D0C;
+	border-radius: 30px 0 30px 0;
+	opacity: 0.8;
+}
+.navul li{
+	list-style: none;
+	float: left;
+	padding: 0 2%;
+	font-size: 16px;
+	height:50px;
+	line-height:50px;
+}
+.navul li:hover:not(.active){
+	background-color: red;
+}
+a{
+	text-decoration: none;
+	color: #281C08;
+	
+}
+
+#buton{
+	display: none;
+}
+.search{
+	width: 30px;
+	position: relative;
+	top: 10px;
+	padding-left: 7px;
+}
+.search:hover{
+	transform: scale(1.1)
+}
+header nav form {
+	padding-right: 5%;
+	float: right;
+}
+header form input{
+	border-radius: 15px;
+	outline: none;
+	width: 60px;
+}
+header form input:hover{
+	transition: width 2s;
+	width:140px;
+}
+/*style for footer*/
+footer{
+	padding-left: 5%;
+	font-family: arial, Helvetica, Tahoma;
+	height:60px;
+	background-color: #C50D0C;
+	opacity: 0.8;
+}
+footer img{
+	width:100px;
+	height:60px;
+	position: absolute;
+	left: 85%;
+	
+}
+footer div p{
+	padding-top: 7px;
+	display: inline-block;
+}
+/*style for page "За нас"*/
+.contentimg{
+	text-align: center;
+	width: 60%;
+	position: relative;
+	left: 20%;
+	top: 15px;
+	font-family: arial, Helvetica, Tahoma;
+}
+.contentimg img{
+	width: 100%;
+	padding: 20px;
+}
+/*style for page "За нас"*/
+.background, .contenttext{
+	width:40%;
+	position: relative;
+	left: 10%;
+	display: inline-block;
+	font-family: arial;
+}
+.contenttext p{
+	padding: 10px 0;
+}
+.contentforus img{
+	width: 100%;
+}
+/*style for page "експозиция"*/
+.contentexpo{
+	height:540px;
+	text-align: center;
+	padding: 5px;
+	font-family: arial, Helvetica, Tahoma;
+	color: #281C08;
+}
+.contentexpo p{
+	padding-top:30px;
+}
+.slider{
+	width: 42%;
+	position: absolute;
+	left: 29%;
+	top: 230px;
+	box-shadow: 0 10px 20px -5px #000000;
+}
+.img2{
+	position: absolute;
+	left: 0; 
+	top: 0;
+	transition: 0.5s;
+	opacity: 0;
+	transform: scale(1.1);
+	width: 100%;
+	box-shadow: 0 10px 20px -5px #000000;
+}
+
+.slider input {
+	display: none;
+}
+
+.slider label {
+	margin: 18px 0 0 18px;
+	border: 3px solid #000000;
+	float: left;
+	opacity: 0.6;
+	position:relative;
+	top: 310px;
+}
+
+.slider label img{
+	display: block;
+}
+.slider input:checked+label {
+	border-color: #000000;
+	opacity: 1;
+
+}
+.slider input:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
+.img1{
+	width: 100px;	
+}
+/*style for page "Карта"*/
+.map{
+	position: relative;
+	width: 40%;
+	left: 30%;
+}
+.map img{
+	widows: 100%;
+}
+/*style for page "Контакти и Услуги"*/
+.contacts{
+	font-family: arial, Helvetica, Tahoma;
+	color: #ffffff;
+	background-color: #008040;
+	text-align: center;
+	width: 60%;
+	position: relative;
+	left: 20%;
+	height: 550px;
+	opacity: 0.7;
+}
+#fname{
+	margin:20px 0 20px 36px;
+}
+#email{
+	margin:20px 0 20px 28px;
+}
+#quest{
+	margin: 20px 0;
+	width: 300px;
+	height: 100px;
+}
+.submit{
+	background-color: #C50D0C;
+	border-radius: 15px;
+	outline: none;
+}
+
